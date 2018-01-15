@@ -2,6 +2,7 @@
 Source code and benchmarks released as part of the Approximate Systems project @ Purdue University.
 
 Author: Arnab Raha
+
 Release date: 1/14/2018
 
 
