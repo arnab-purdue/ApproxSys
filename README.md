@@ -6,6 +6,8 @@ Author: Arnab Raha
 Release date: 1/14/2018
 
 
+
+
 Directory Structure:
 1. Benchmarks are available in software folder
 
@@ -29,6 +31,8 @@ E. Image Filter
 
 
 More benchmarks to be added soon !!
+
+
 
 
 If you use these benchamrks, pleae appropriately cite them in your paper as the following:
