@@ -1,7 +1,8 @@
 # ApproxSys
 Source code and benchmarks released as part of the Approximate Systems project @ Purdue University.
+
 Author: Arnab Raha
-Release ate: 1/14/2018
+Release date: 1/14/2018
 
 
 Directory Structure:
@@ -28,7 +29,9 @@ E. Image Filter
 
 More benchmarks to be added soon !!
 
+
 If you use these benchamrks, pleae appropriately cite them in your paper as the following:
+
 A. Raha and V. Raghunathan, “Towards Full-System Energy-Accuracy Tradeoffs: A Case Study of an Approximate Smart Camera System”, Design Automation Conference (DAC), 2017, pp. 74:1--74:6.
 
 
