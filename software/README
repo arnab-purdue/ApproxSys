@@ -1,0 +1,42 @@
+*****************
+APP SYS Journal
+Created by: araha
+Last edited on: 5/15/2017
+*****************
+
+
+Scripts::
+
+jpeg-9b::
+JPEG ENCODER:
+convert2jpeg.sh
+convert2jpeg.pl
+
+JPEG DECODER:
+convert2raw.sh
+convert2raw.pl
+
+pgm::
+generate_automate.pl
+automate.pl
+
+jpeg_error_sim::
+resize_array.c
+automate_resize.pl
+
+
+Steps:
+1.jpeg_error_sim: resize the input array in .h format (use resize_array.c)
+2.pgm: convert the .h file to .pgm file by modifying the MAXROWS MAXCOLS in PGM.h and the demopgm.c file. (both dimensions can have a maximum value of 65500).
+3.jpeg-9b: copy .pgm files to this folder. Use convert2jpeg.sh (convert2jpeg.pl) and convert2raw.sh (convert2raw.pl) for getting the jpeg errors.
+4.pgm: copy the erroneous .pgm files back to this folder and use automate_generate.p to get back the .h files.
+5.jpeg_error_sim: copy the .h files and convert it back to the original .h file using the automate_resize.pl and resize_array.c file.
+
+Application-specific:
+KMEANS: Use run.pl to generate the Q-E graph for the commm. module.
+SOBEL: Use run.pl to generate the Q-E graph for the commm. module.
+VJ_HAAR: Use run.pl to generate the Q-E graph for the commm. module.
+CNN: Use convert_mnist.c to convert to signed int array with -127 offset (.h file).
+IMAGE_FILTER: Use run.pl to generate the Q-E graph for the commm. module.
+
+
