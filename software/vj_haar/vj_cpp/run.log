@@ -1,0 +1,642 @@
+ 
+solvay
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+detecting faces, iter := 15
+detecting faces, iter := 16
+detecting faces, iter := 17
+detecting faces, iter := 18
+-- saving output --
+-- image saved --
+Main = 1685426148
+Main = 1.685426
+ 
+dfb
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+detecting faces, iter := 15
+detecting faces, iter := 16
+detecting faces, iter := 17
+-- saving output --
+-- image saved --
+Main = 813817898
+Main = 0.813818
+ 
+nasa
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+-- saving output --
+-- image saved --
+Main = 444733384
+Main = 0.444733
+ 
+solvay2x
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+detecting faces, iter := 15
+detecting faces, iter := 16
+detecting faces, iter := 17
+detecting faces, iter := 18
+-- saving output --
+-- image saved --
+Main = 804064824
+Main = 0.804065
+ 
+dfb2x
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+detecting faces, iter := 15
+detecting faces, iter := 16
+-- saving output --
+-- image saved --
+Main = 407957552
+Main = 0.407958
+ 
+nasa2x
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+-- saving output --
+-- image saved --
+Main = 206615009
+Main = 0.206615
+ 
+solvay4x
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+detecting faces, iter := 15
+-- saving output --
+-- image saved --
+Main = 438083224
+Main = 0.438083
+ 
+dfb4x
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+-- saving output --
+-- image saved --
+Main = 200159637
+Main = 0.200160
+ 
+nasa4x
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+-- saving output --
+-- image saved --
+Main = 105155263
+Main = 0.105155
+ 
+solvayqbin2
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+detecting faces, iter := 15
+detecting faces, iter := 16
+detecting faces, iter := 17
+detecting faces, iter := 18
+-- saving output --
+-- image saved --
+Main = 1682604624
+Main = 1.682605
+ 
+dfbqbin2
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+detecting faces, iter := 15
+detecting faces, iter := 16
+detecting faces, iter := 17
+-- saving output --
+-- image saved --
+Main = 819850592
+Main = 0.819851
+ 
+nasaqbin2
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+-- saving output --
+-- image saved --
+Main = 439600111
+Main = 0.439600
+ 
+solvayqbin4
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+detecting faces, iter := 15
+detecting faces, iter := 16
+detecting faces, iter := 17
+detecting faces, iter := 18
+-- saving output --
+-- image saved --
+Main = 1677473164
+Main = 1.677473
+ 
+dfbqbin4
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+detecting faces, iter := 15
+detecting faces, iter := 16
+detecting faces, iter := 17
+-- saving output --
+-- image saved --
+Main = 813317834
+Main = 0.813318
+ 
+nasaqbin4
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+-- saving output --
+-- image saved --
+Main = 438631480
+Main = 0.438631
+ 
+solvayqbin6
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+detecting faces, iter := 15
+detecting faces, iter := 16
+detecting faces, iter := 17
+detecting faces, iter := 18
+-- saving output --
+-- image saved --
+Main = 1691317689
+Main = 1.691318
+ 
+dfbqbin6
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+detecting faces, iter := 15
+detecting faces, iter := 16
+detecting faces, iter := 17
+-- saving output --
+-- image saved --
+Main = 1067209965
+Main = 1.067210
+ 
+nasaqbin6
+rm -f vj *.o Output.pgm
+g++ -o main.o -c main.cpp 
+g++ -o haar.o -c haar.cpp 
+g++ -o image.o -c image.c
+cc    -c -o stdio-wrapper.o stdio-wrapper.c
+g++ -o rectangles.o -c rectangles.cpp 
+g++ -o vj main.o haar.o image.o stdio-wrapper.o rectangles.o  -lrt 
+./vj
+-- entering main function --
+-- loading image --
+
+Reading image file: Face.pgm
+-- loading cascade classifier --
+-- detecting faces --
+detecting faces, iter := 1
+detecting faces, iter := 2
+detecting faces, iter := 3
+detecting faces, iter := 4
+detecting faces, iter := 5
+detecting faces, iter := 6
+detecting faces, iter := 7
+detecting faces, iter := 8
+detecting faces, iter := 9
+detecting faces, iter := 10
+detecting faces, iter := 11
+detecting faces, iter := 12
+detecting faces, iter := 13
+detecting faces, iter := 14
+-- saving output --
+-- image saved --
+Main = 441623765
+Main = 0.441624

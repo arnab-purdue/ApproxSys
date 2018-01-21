@@ -1,0 +1,13 @@
+/*APP_SYS - HAAR - FACE DETECT
+Arnab Raha
+Last Modified: 7/3/2016*/
+
+MATLAB:full_system/face_detect/
+pgmsubsample_scaledown.m -> pgm to png with scaledown
+App "XnConvert" -> pgm converter !! IMP - Use this for converting from png to pgm 
+pgmsubsampleqbin.m -> pgm to png with scaledown and qbin (introduce DRAM errors)
+png2pgm_approx.m -> output pgm to jpg/png again
+
+C files:
+run.sh -> modify files for step size and input pgm file
+
