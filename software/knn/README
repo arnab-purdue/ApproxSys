@@ -1,0 +1,10 @@
+/* Arnab Raha
+APP SYS-KNN
+Last edited: 7/2/2016*/
+
+
+knn.c->without RnR
+knnrnr.c->with RnR - considered the baseline - dim 784
+knnrnr_196.c->with 196 dim - 4xsubsampled
+scaledown_grayscale.c->subsampling inputs and ref vectors
+error_knn.c->add DRAM errors

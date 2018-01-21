@@ -1,0 +1,14 @@
+/* Arnab Raha
+APP SYS - KMEANS - IMG SEG
+Last Modified: 7/4/2016*/
+
+MATLAB:full_system/kmeans_img_seg/
+rgb_2c.m -> cover png/jpg image to rgb format for kmeans with 'subsampling'
+imageseg.m -> reconstruct segmented *.m file generated from c to the image with error characteristics
+
+C:
+kmeans2.c - > kmeans file where we need to change to the appropriate header file and the appropriate output file name
+error_kmeans.c -> introduces dram error in the header file to be segmented
+
+Misc: 
+Computational approximations were performed by either changing the total number of iterations or the presence of ctrl (uncomment to 1)
