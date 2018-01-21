@@ -1,0 +1,14 @@
+/* Arnab Raha
+APP SYS - SOBEL
+Last Modified: 7/5/2016*/
+
+MATLAB:full_system/sobel_edge/
+rgb2grayscale_cheader.m -> convert png/jpg image to grayscale and then to c with 'subsampling'
+sobel_scaledown_recreate.m -> reconstruct  *.m file generated from sobel app in c to the final edge detected image 
+
+C:
+sobelrnr.c - > sobel file where we need to change to the appropriate header file and the appropriate output file name
+	       skipx; skipy needs to be changed for varying computational approximation (gbmin and gbmax are ketp constant)
+error_sobel.c -> introduces dram error in the header file to be segmented - output the appropriate file
+
+
