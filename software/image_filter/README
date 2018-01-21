@@ -1,0 +1,23 @@
+/*Arnab Raha
+APP SYS - IMAGE FILTER
+Last Modified: 7/7/2016*/
+
+
+
+Original files
+smoothen_2.c -> main source file for smoothening the input image  - large smoothing matrix (compile it with g++)
+smoothen.c -> main source file for smoothening the input image  - small smoothing matrix (compile it with g++)
+smoothen.c -> used with the approximate communication part
+
+AppSys Related Files:/full system/image_filter/
+MATLAB: 
+rgb_2c.m -> Convert jpg or png image to c header file. Also performs 'subsampling' of the input image.
+output_error.m -> reconstruct orig and approximate files and check the percentage error. Supersample the output for subsampled input files.
+
+C Files: 
+smoothen_app_sys.c -> main source file with all approximations. Need to change to appropriate header file and output file
+error_filter.c -> introducing DRAM errors in the image header file.
+
+Misc info: Comp approximations are affected by knobs 'skipx',skipy','skipi','skipj'.
+
+

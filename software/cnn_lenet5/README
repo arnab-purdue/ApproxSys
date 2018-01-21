@@ -1,0 +1,17 @@
+/*Arnab Raha
+APP SYS - CNN
+Last Modified: 7/5/2016*/
+
+
+
+cnn_fp_app_sys.cpp -> main CNN file  (compile it with g++ or execute run.sh)
+run.sh -> run script
+error_cnn.c-> script to introduce DRAM errors in the test_images_2.h file
+
+Misc: subsampling is controlled within the neu_mac_wapp function
+computation skipping is controlled with skipC1
+
+
+
+
+
