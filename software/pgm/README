@@ -1,0 +1,62 @@
+Readme file for PGM code 
+*********************************
+
+
+This code is intended to allow the user to save and write
+PGM files to and from two dimensional arrays.  
+
+**To use this code:**
+	1. copy all the files in the PGM directory to your home 
+	   directory.
+
+	2. issue the command:
+
+	   make -f makePGM
+
+	3. pgmDemo is an executable file demonstrating read, write and
+	   simple file manipulation and synthesis routines for PGM
+	   files.
+
+	4. PGM.h contains all the default settings including the
+	   maximum dimensions of the array (MAXROWS and MAXCOLS).
+
+                               ***
+
+Portable Bit Maps (PBM's) come in three main varieties:
+
+	1. Binary formats (type P1(char) and P4(binary))-"PBM"
+	2. Greyscale formats (P2(char) and P5(binary))-"PGM"
+	    ("Portable Greyscale Maps")
+	3. Colour Formats (P3(char) and P6(binary))-"PPM"
+	    ("Portable Pixmaps")
+
+The code included here is for use with the P2 and P5 formats
+for input, and writes P5 (binary) images.
+
+		 	       ***	   
+
+A short list of files and what they're for:
+
+    makePGM - the makefile for the files below
+
+    pgmDemo - (low rent) user interface for trying the routines
+      a number of simple manipulations are offered.  The program 
+      automatically displays the resulting image if the request is handled
+      adequately.
+
+    demopgm.c demopgm.h - C code for the user interface	
+
+    iroutines.c iroutines.h - simple image manipulation routines.	
+
+    PGM.c PGM.h -  C functions to save and read PGM's to a 2D array
+	           PGM.h contains all default constants.
+    		
+	                       ***
+
+If there are any errors or questions, please feel free
+to contact me at:
+
+	 zanibbi@qucis.queensu.ca
+
+Richard Zanibbi
+May 1998
